@@ -8,3 +8,9 @@ npm install webdriverio -D
 node_modules/.bin/wdio
 ```
 
+**設定 npm test**
+
+```
+vi package.json
+```
+
