@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/alincode/testing-day-2017-e2e-testing.git"
   },
-  "keywords": ["WebdriverIO", "e2e testing"],
+  "keywords": [
+    "WebdriverIO",
+    "e2e testing"
+  ],
   "author": "alincode <alincode@gmail.com>",
   "license": "ISC",
   "bugs": {
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/alincode/testing-day-2017-e2e-testing#readme",
   "devDependencies": {
+    "wdio-allure-reporter": "^0.1.2",
     "wdio-concise-reporter": "^0.1.2",
     "wdio-mocha-framework": "^0.5.10",
     "wdio-phantomjs-service": "^0.2.2",
