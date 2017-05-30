@@ -14,3 +14,8 @@ node_modules/.bin/wdio
 vi package.json
 ```
 
+**執行測試專案**
+
+```
+npm test
+```
