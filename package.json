@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/alincode/testing-day-2017-e2e-testing.git"
   },
-  "keywords": [],
+  "keywords": ["WebdriverIO", "e2e testing"],
   "author": "alincode <alincode@gmail.com>",
   "license": "ISC",
   "bugs": {
