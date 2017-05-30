@@ -1,0 +1,28 @@
+{
+  "name": "testing-day-2017-e2e-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alincode/testing-day-2017-e2e-testing.git"
+  },
+  "keywords": [],
+  "author": "alincode <alincode@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alincode/testing-day-2017-e2e-testing/issues"
+  },
+  "homepage": "https://github.com/alincode/testing-day-2017-e2e-testing#readme",
+  "devDependencies": {
+    "wdio-concise-reporter": "^0.1.2",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-spec-reporter": "^0.1.0",
+    "wdio-testingbot-service": "^0.1.7",
+    "webdriverio": "^4.8.0"
+  }
+}

@@ -1,1 +1,10 @@
-# testing-day-2017-e2e-testing
+# Testing day 2017 前端測試
+
+**初始化測試專案**
+
+```
+npm init -y
+npm install webdriverio -D
+node_modules/.bin/wdio
+```
+
