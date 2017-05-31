@@ -42,9 +42,11 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
-        //
-        browserName: 'firefox'
+        maxInstances: 1,
+        browserName: 'chrome',
+        version: '58',
+        platform: 'WINDOWS',
+        name: 'e2e testing'
     }],
     //
     // ===================
@@ -107,6 +109,10 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['testingbot','phantomjs'],
+    host: 'hub.testingbot.com',
+    port: 80,
+    user: process.env.TESTINGBOT_KEY,
+    key: process.env.TESTINGBOT_SECRET,
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
