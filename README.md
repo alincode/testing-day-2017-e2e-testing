@@ -20,6 +20,13 @@ vi package.json
 npm test
 ```
 
+**環境設定**
+ß
+```
+export TESTINGBOT_KEY=
+export TESTINGBOT_SECRET=
+````
+
 ### 新增 allure 報表格式
 
 ```
