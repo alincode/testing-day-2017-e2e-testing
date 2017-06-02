@@ -3,7 +3,7 @@ const assert = require('assert');
 describe('angularjs', () => {
 
    beforeEach(function() {
-    browser.pause(3000);
+    browser.pause(1000);
   });
 
   it('加', () => {
