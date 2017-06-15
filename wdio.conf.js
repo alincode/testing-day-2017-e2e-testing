@@ -44,9 +44,14 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 1,
         browserName: 'MicrosoftEdge',
-        version: '14',
         platform: 'WINDOWS',
-        name: 'e2e testing'
+        version: '14',
+        name: 'edge 14'
+    }, {
+        browserName : 'internet explorer',
+        platform : 'WINDOWS',
+        version : '7',
+        name: 'ie 7'
     }],
     //
     // ===================
